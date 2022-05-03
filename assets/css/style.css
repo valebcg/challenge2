@@ -1,0 +1,48 @@
+.encabezado {
+    height: 4em;
+    padding: 4em;
+    background-image: url("../imgs/chocolate.jfif");
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    background-position: top;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.encabezado h1 {
+    margin: 0px;
+    font-weight: 200px;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+}
+.imagenesproductos {
+  margin-top: 30px;
+  width: 20em;
+  height: 15em;
+  border: solid 3px;
+  border-radius: 10px;
+}
+.descripciónproducto {
+    margin-left: 20px;
+    font-size: 3em;
+    margin-top: 2%;
+}
+
+footer {
+  background-color: rgb(223, 222, 222);
+  background: rgb(73, 52, 52);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana;
+  color: white;
+  line-height: 30px;
+}
